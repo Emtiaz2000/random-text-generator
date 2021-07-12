@@ -1,0 +1,73 @@
+.country {
+    display: block; font-size: 14px; color: #888;}.wrd {border-radius: 3px; width: 28%; min-width: 200px;
+  }
+  .selectedValue{
+      width:70%;
+      margin:3rem  auto;
+  }
+  .buttonContainer{
+      display: inline-block;
+  }
+  .remove,.copy{
+      height:2.5rem;
+      padding:1rem;
+      margin-top:10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .selecetdItem{
+    width:100%;
+    margin:auto;
+    min-height:10rem;
+    background-color:rgba(224, 220, 220, 0.986) ;
+    border: 1px solid #000;
+  }
+  .wrd {
+  border-radius: 3px;
+  width: 20%;
+  min-width: 200px;
+  display: inline-block;
+  background: #efefef;
+  margin: 6px;
+  text-align: center;
+  font-size: 22px;
+  color: #4d4d4d;
+  padding: 8px 15px;
+  }
+  input[type="number"] {
+      width: 200px;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 18px;
+      text-align: center;
+  }
+  #typ {
+      width: 200px;
+      height: 45px;
+      font-size: 18px;
+      border-radius: 5px;
+      color: #444;
+      border: 1px solid #ccc;
+  }
+  #generate {
+      cursor: pointer;
+      padding: 0 2%;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background-color: #12bf68;
+      color: #fff;
+      border-radius: 25px;
+      margin-top: 25px;
+      transition: all .1s ease-in;
+      -webkit-transition: all .1s ease-in;
+      width: 180px;
+      min-width: 180px;
+      border:none;
+  }
+  .heading{
+      text-align: center;
+  }
